@@ -1,5 +1,6 @@
 
 
+
 import re
 
 states = ['alambama','Georgia!','georgia','Florlda','south carolina ','West virginia?']

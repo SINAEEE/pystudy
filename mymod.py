@@ -15,14 +15,15 @@ def divide(a,b):
     return a/b
 
 def main():
-    print("mymod testcode")
-    print("add", add(10,20))
-    print("subtract", subtract(20,10))
+    print('최상위 모듈(독립실행시) 출력')
+
 
 #모듈 - import했을때와 직접실행했을떄 차이를 잘 알아보자
 
-if __name__ =="__main__": #__main일떄, __main__일때
+print()
+if __name__ =="__main__": # __main__일때
     main()
-#print(__name__)
+else:
+    print('mymod.py의 모듈이름 : '+__name__)
 
 

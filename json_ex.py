@@ -1,6 +1,7 @@
 
 import json
 
+
 #json 인코딩 : python타입문자열 -> json
 
 customer = {

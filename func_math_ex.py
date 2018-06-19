@@ -1,5 +1,5 @@
 
-
+"""
 #generator : iterator를 생성해주는 함수
 #interator는 next()함수를 통해 순차적으로 값을 가져오는 object
 #generator는 일반함수와 다를것이 없지만 yield라는 큰 차이점을 가지고 있음
@@ -15,18 +15,21 @@ def number_generator(n):
 if __name__ =="__main__":
     for i in number_generator(0):
         print(i)
-
 """
+
+
+
 # yield
 # 리스트 1,2,3을 바깥으로 전달
-def number_gernerator2():
+def number_generator2():
     x=[1,2,3]
     for i in x:
         yield i
 
-for i in number_gernerator2():
+for i in number_generator2():
     print(i)
-"""
+
+
 
 
 """

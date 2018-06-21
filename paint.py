@@ -1,7 +1,7 @@
 #paint.py
 # point를 import하여 사용(point.py)
 
-from point import Point #point 모듈로부터 Point를 불러온다
+from basic.point import Point #point 모듈로부터 Point를 불러온다
 
 p1 = Point(10,10)
 print("p1", p1) #repr 메시지를 확인

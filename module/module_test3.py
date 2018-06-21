@@ -7,7 +7,7 @@ import math as m
 print(m.pi)
 
 #모듈 내에 정의된 객체의 이름을 바꾸기
-from mymod import add as sumval
+from module.mymod import add as sumval
 print(sumval(10,20)) #mymod.add -> sumval
 
 #dir 함수

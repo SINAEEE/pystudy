@@ -4,7 +4,7 @@
 #module import
 
 import math
-import mymod
+from module import mymod
 
 #모듈명 앞에 붙이고 객체를 사용할 수 있게 됩니다.
 print(math.pi)

@@ -5,19 +5,20 @@
 print('modulename.py의 모듈 이름 : '+__name__)
 
 #하지만 import되어지는 모듈의 이름은 파일이름이 됨
-import mymod
+from module import mymod
+
 print("modulename.py의 모듈이름 : " +__name__)
 
 print()
 print("mymod.py의 모듈이름 : " +__name__)
-print(mymod.add(10,20))
+print(mymod.add(10, 20))
 
 print()
 #파이썬변수, 함수, 클래스는
 # 각각 자신의 정의된 모듈의 이름이 저장된 __module__속성을 가지고있음
 
 from math import sin
-from mymath import add
+from module.mymath import add
 from cmd import Cmd
 
 print(sin.__module__)

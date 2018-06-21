@@ -2,8 +2,7 @@
 # module_test2.py
 
 # from ... import
-from math import pi, sin, cos, tan
-from mymod import pi, add, subtract, multiply
+from module.mymod import pi, add
 
 # 모듈명 지정 없이 이름으로만 호출 할 수 있게 됨
 print(pi) #이름값이 중복되면 가장 나중에 import한 pi를 사용하여 mymod의 pi를 사용한게 된것
